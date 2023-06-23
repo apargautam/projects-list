@@ -13,11 +13,15 @@ body{
     text-align: center;
 }
 
+.projectContainer{
+    display: flex;
+}
+
 .container{
     border: 2px solid black;
     border-radius: 5px;
-    width: 30%;
-    height: 40%;
+    margin: 0px;
+    /* width: 100%; */
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +35,8 @@ body{
     cursor: pointer;
 }
 
-.container .dispImage:hover{
+
+.container:hover{
     transform: scale(1.02);
 }
 
@@ -42,7 +47,10 @@ body{
 
 a, a:visited, a:active, a:hover{
     text-decoration: none;
+    display: block;
+    width: 30%
 }
+
 .copyright{
     float:right;
 }
