@@ -1,0 +1,48 @@
+*{
+    margin:5px;
+}
+
+body{
+    background-color: #ffc996;
+}   
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fce2cc;
+}
+
+.container .dispImage{
+    width: 95%;
+    height:90%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .dispImage:hover{
+    transform: scale(1.02);
+}
+
+.container .containerTitle{
+    padding-top:1px;
+    font-size: 20px;
+}
+
+a, a:visited, a:active, a:hover{
+    text-decoration: none;
+}
+.copyright{
+    float:right;
+}
