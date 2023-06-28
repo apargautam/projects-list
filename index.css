@@ -56,8 +56,6 @@ body{
     }
 }
 
-
-
 .title{
     font-family: 'Courier New', Courier, monospace;
     align-content: center;
@@ -66,15 +64,16 @@ body{
     color: #ffffff;
 }
 
-.projectContainer{
+.projects-container{
     display: flex;
+
 }
 
 .container{
+    height: 40vh;
+    width: 30vw;
     border: 2px solid black;
     border-radius: 5px;
-    margin: 0px;
-    /* width: 100%; */
     display:flex;
     flex-direction: column;
     align-items: center;
