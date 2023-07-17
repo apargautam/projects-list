@@ -5,7 +5,8 @@
 
 body{
     background-color: #13182c;
-    margin:0 10%;
+    /* margin:0 10%; */
+    overflow:hidden;
 }   
 
 .squares-container{
